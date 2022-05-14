@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  height: 8vh;
+  width: 100vw;
+}
+
+.container {
+  display: flex;
+  height: 92vh;
+  width: 100vw;
+}
+
+.nav {
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.search-input {
+  width: 30%;
+  height: 50%;
+  border-radius: 20px;
+  font-size: 16px;
+}
+
+.main {
+  background-color: green;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  padding: 0 15% 0 15%;
+}
+
+.card {
+  margin: 5px;
+  border: 1px solid black;
+  width: 160px;
+  height: 160px;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card:hover {
+  background-color: yellow;
+}
